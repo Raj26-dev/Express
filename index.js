@@ -1,14 +1,17 @@
-const express = require("express");
+import express from "express";
+import home from "./pages/home.js";
+import about from "./pages/about.js";
+import contact from "./pages/contact.js";
 
 const app = express();
 
 app.get("", (req, resp)=> {
-    resp.send("<h1>Express</h1>")
+    resp.send(home())
 })
 app.get("/about", (req, resp)=> {
-    resp.send("<h1>Express About</h1>")
+    resp.send(about())
 })// 
 app.get("/contact", (req, resp)=> {
-    resp.send("<h1>Express Contact</h1>")
+    resp.send(contact())
 }) // app.get use to make get data/ api
 app.listen(3000);// app 

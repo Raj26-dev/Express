@@ -1,0 +1,20 @@
+h1 {
+  color: orange;
+}
+
+/* Anchor tag style */
+a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid #ffb366;
+  border-radius: 4px;
+  background-color: #ffe6cc; /* Light orange background */
+  color: #000000;            /* Black text */
+  text-decoration: none;     /* Removes default underline */
+  transition: background-color 0.2s ease;
+}
+
+/* Anchor tag hover state */
+a:hover {
+  background-color: #ffd199; /* Slightly deeper shade for hover */
+}

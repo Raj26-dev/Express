@@ -1,0 +1,58 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f8f9fa;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 500px;
+    }
+
+    .error-code {
+      font-size: 120px;
+      font-weight: bold;
+      color: #dc3545;
+      line-height: 1;
+      margin-bottom: 10px;
+    }
+
+    .error-title {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #212529;
+    }
+
+    .error-message {
+      font-size: 16px;
+      color: #6c757d;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+
+    .btn-home {
+      display: inline-block;
+      padding: 12px 28px;
+      background-color: #0d6efd;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    .btn-home:hover {
+      background-color: #0b5ed7;
+    }
